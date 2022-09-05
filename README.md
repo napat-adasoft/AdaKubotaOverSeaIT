@@ -1,1 +1,2 @@
-# AdaKubotaOverSeaIT
+# AdaKubotaOverSea
+OverSea
