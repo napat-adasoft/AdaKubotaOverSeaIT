@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        checkout scm
+        git(url: 'https://github.com/napat-adasoft/AdaKubotaOverSeaIT.git', branch: 'Production')
       }
     }
     stage('Release') {
