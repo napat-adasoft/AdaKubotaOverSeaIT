@@ -77,4 +77,4 @@ define('MQ_Sale_EXCHANGE', '');
 define('MQ_Sale_PORT', 5672);
 
 /* ทดสอบ push file to Feature1 */
-
+/* ทดสอบ push file to Feature1 บรรทัด 80 */
