@@ -76,3 +76,5 @@ define('MQ_Sale_QUEUES','UPLOADSALE,UPLOADSALEPAY,UPLOADSALERT,UPLOADSALEVD,UPLO
 define('MQ_Sale_EXCHANGE', '');
 define('MQ_Sale_PORT', 5672);
 
+/* ทดสอบ push file to Feature1 */
+
