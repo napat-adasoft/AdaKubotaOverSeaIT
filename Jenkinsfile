@@ -1,14 +1,26 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout') {
+    stage('SCM Checkout') {
       steps {
         checkout scm
       }
     }
-    stage('Release') {
+    stage('Build/Launch (Docker)') {
       steps {
-        echo 'Ready to release etc.'
+        echo 'Build Docker Success.'
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'Integration Test Module'
+        echo 'End-to-End Test'
+      }
+    }
+    stage('Deploy') {
+      steps {
+        echo 'Deploy Success.'
+
       }
     }
   }

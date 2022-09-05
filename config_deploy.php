@@ -81,3 +81,4 @@ define('MQ_Sale_PORT', 5672);
 /* ทดสอบ push file to Feature1 บรรทัด 81 */
 /* ทดสอบ push file to Feature1 บรรทัด 82 */
 /* push ไฟล์ให้ Tester ทดสอบ */
+/* push ไฟล์ไว้ที่ Feature1 */
